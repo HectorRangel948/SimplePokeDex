@@ -1,0 +1,93 @@
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.contenedorPokemones{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.tarjetaPokemon{
+    display: flex;
+    flex-direction: column;
+    border:1px solid black;
+    border-radius: 15px;
+    width:20%;
+    margin: 25px;
+}
+
+.titulo{
+    font-size: 50px;
+}
+
+.buscar{
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    text-align: center;
+}
+
+.barraBuscar{
+    text-align:center;
+    border-radius:15px 0 0 15px;
+    padding-top:5px; 
+    padding-bottom:5px;
+    border:2px solid black;
+    border-right: none;
+}
+
+.botonBuscar{
+    background-color:rgb(181, 14, 14);
+    border-radius: 0px 15px 15px 0px;
+    padding: 4px 10px 2px 7px;
+    border: 2px solid black;
+    font-size: 12px;
+    right:2px;
+}
+
+.botonBuscar:hover{
+    background-color:red;
+}
+
+.imagen{
+    width:100px;
+    margin:auto;
+
+}
+
+.mostrar-todos-texto{
+    font-size: 15px;
+    color:gray;
+}
+
+.bulletPoints-contenedor{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.bulletPoint{
+    border-radius: 100%;
+    background-color: rgb(181, 14, 14);;
+    border: 1px solid black;
+    font-size: 10px;
+    line-height: 2; /*Alinea el texto dentro del div*/
+    width: 20px;
+    height: 20px;
+    margin:5px;
+}
+
+.bulletPoint:hover{
+    background-color: red;
+    border: 1px solid gray;
+    color:white;
+    line-height: 2; /*Alinea el texto dentro del div*/
+    font-weight: 800;
+    cursor: pointer;
+}
+
